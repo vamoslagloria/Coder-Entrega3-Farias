@@ -145,16 +145,19 @@ a {
 
 
 
-.container {
-    background-color: rgb(198, 188, 188);
-    height: 68vh;
+.galeria {
+    background-color: rgb(71, 67, 67);
+    height: 66vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
 }
 
-
+.galimag {
+    height: 30vh;
+    object-fit: cover
+}
 
 /* ----------------- servicios main ----------------- */
 
@@ -179,13 +182,13 @@ a {
 
 }
 
-.servicios-main__tarjeta {
+.tarjeta {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    padding: 18px;
+    padding: 15px;
     height: 99vh;
-    width: 90vw;
+    width: 95vw;
     gap: 9px;
 }
 
@@ -202,7 +205,7 @@ a {
     flex-direction: column;
     justify-content: space-around;
     padding: 10px;
-    border-radius: 4px;
+    box-shadow: 12px 12px 5px;
     font-size: .6rem;
     height: 30vh;
     width: 45vw;
@@ -252,7 +255,7 @@ a {
     width: 99vw;
 }
 
-.tarjeta {
+.tarjeta-ventas {
     background-color: rgba(249, 245, 245, 0.682);
     border: 4px solid wheat;
     height: 35vh;
@@ -260,7 +263,7 @@ a {
     font-size: .8rem;
 }
 
-.tarjeta img {
+.tarjeta__img {
     width: 100%;
 }
 
@@ -367,23 +370,9 @@ a {
     /* --------------- galeria main ---------------- */
 
 
-
-
-    .galeria__contenedor {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(4, 1fr);
-        padding: 20px;
-    }
-
-    .galeria__imagen-destacada {
-        grid-column: span 2;
-        grid-row: span 2;
-    }
-
-    .galeria__contenedor img {
-        width: 100%;
-        height: 100%;
+    .galimag {
+        height: 65vh;
+        object-fit: cover;
     }
 
 
@@ -398,7 +387,7 @@ a {
         width: 99vw;
     }
 
-    .tarjeta {
+    .tarjeta-ventas {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -414,7 +403,7 @@ a {
 
 
 
-    .servicios-main__tarjeta {
+    .tarjeta {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
@@ -434,7 +423,7 @@ a {
     }
 
 
-    .btn {
+    .targeta__btn {
         width: 150px;
         ;
     }
@@ -499,7 +488,7 @@ a {
 
 
 
-    .galeria__contenedor {
+    galeria__contenedor {
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(2, 1fr);
         height: 75vh;
@@ -511,7 +500,7 @@ a {
 
 
 
-    .servicios-main__tarjeta {
+    .tarjeta {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
@@ -559,7 +548,7 @@ a {
         width: 99vw;
     }
 
-    .tarjeta {
+    .tarjeta-ventas {
         background-color: rgba(249, 245, 245, 0.682);
         border: 4px solid wheat;
         height: 50vh;
@@ -575,7 +564,7 @@ a {
         align-items: center;
     }
 
-    .tarjeta img {
+    .tarjeta__img {
         width: 100%;
         height: 30vh;
         object-fit: cover;
