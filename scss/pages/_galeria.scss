@@ -1,0 +1,22 @@
+portada-galeria {
+    background-color: rgb(71, 67, 67);
+    height: 66vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+img {
+        height: 50vh;
+        object-fit: cover
+    }
+
+
+@media (min-width: 768px) {
+
+
+    portada-galeria__img {
+        height: 95vh;
+        object-fit: cover;
+    }
+}

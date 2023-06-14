@@ -1,0 +1,103 @@
+footer {
+    border-top: 2px solid wheat;
+    height: 27vh;
+    background-color: rgb(167, 196, 89);
+    padding: 16px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+
+
+    titulo {
+        font-size: 1.3rem;
+
+
+        lista {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+            border: 4px solid black;
+            border-radius: 4px;
+            padding: 4px;
+
+            icono {
+                font-size: 1.2rem;
+                color: mediumvioletred;
+            }
+        }
+    }
+}
+
+map {
+    display: none;
+}
+
+
+
+@media (min-width: 768px) {
+
+
+    footer {
+        height: 36vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 3vh;
+    }
+
+
+    redes {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 20px;
+
+        &__titulo {
+            font-size: 1.6rem;
+
+            &__lista {
+                border: 4px solid black;
+                border-radius: 4px;
+                padding: 4px;
+            }
+        }
+    }
+
+
+    map {
+        display: inline;
+        border: 4px solid black;
+        border-radius: 4px;
+    }
+
+
+
+
+@media (min-width: 1024px) {
+
+
+
+    footer {
+        height: 280px;
+        font-size: large;
+    }
+
+    redes__lista {
+        font-weight: 400;
+        display: flex;
+        flex-direction: column;
+        justify-content: space- space-between;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+}

@@ -33,16 +33,17 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    font-size: 1rem;
 }
 
 
 
-/* ---------------------- index main --------------------- */
+/* ---------------------- index portada --------------------- */
 
 
 
 
-.index__portada {
+.index-portada {
     height: 70vh;
     background-image: url(../img/Kawa-best.jpeg);
     background-position: center;
@@ -52,7 +53,7 @@ a {
     align-items: end;
 }
 
-.index__texto {
+.index-portada__texto {
     background-color: rgba(239, 235, 235, 0.811);
     display: flex;
     flex-direction: column;
@@ -79,10 +80,6 @@ a {
     justify-content: space-between;
 }
 
-.redes__titulo {
-    font-size: 1.3rem;
-}
-
 
 .redes {
     display: flex;
@@ -91,6 +88,12 @@ a {
     align-items: start;
     ;
 }
+
+
+.redes__titulo {
+    font-size: 1.3rem;
+}
+
 
 .redes__lista {
     display: flex;
@@ -113,7 +116,7 @@ a {
 
 
 
-/* ----------------  contacto main ------------------ */
+/* ----------------  contacto portada ------------------ */
 
 
 
@@ -141,11 +144,11 @@ a {
 
 
 
-/* ------------------- galeria main -------------------- */
+/* ------------------- galeria portada -------------------- */
 
 
 
-.galeria {
+.portada-galeria {
     background-color: rgb(71, 67, 67);
     height: 66vh;
     display: flex;
@@ -154,16 +157,16 @@ a {
     align-items: center;
 }
 
-.galimag {
+.portada-galeria__img {
     height: 30vh;
     object-fit: cover
 }
 
-/* ----------------- servicios main ----------------- */
+/* ----------------- servicios portada ----------------- */
 
 
 
-.servicios-main {
+.portada-servicios {
     height: 72vh;
     background-image: url(../img/Kawa-best.jpeg);
     background-position: center;
@@ -173,7 +176,7 @@ a {
     justify-content: space-between;
 }
 
-.servicios-main__titulo {
+.portada-servicios__titulo {
     background-color: rgba(246, 242, 242, 0.951);
     padding: 4px;
     text-align: center;
@@ -182,7 +185,7 @@ a {
 
 }
 
-.tarjeta {
+.tarjeta-servicios {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -193,11 +196,11 @@ a {
 }
 
 
-.tarjeta__titulo {
+.tarjeta-servicios__titulo {
     font-size: 1.3rem;
 }
 
-.tarjeta__texto {
+.tarjeta-servicios__cuerpo {
     background-color: rgba(247, 242, 242, 0.892);
     border: 4px solid wheat;
     text-align: center;
@@ -225,11 +228,11 @@ a {
 }
 
 
-/* ------------------- ventas main -------------------- */
+/* ------------------- ventas portada -------------------- */
 
 
 
-.productos-en-venta {
+.portada-ventas {
     height: 68vh;
     background-color: black;
     color: white;
@@ -239,7 +242,7 @@ a {
 }
 
 
-.productos-en-venta__titulo {
+.portada-ventas__titulo {
     height: 37px;
     text-align: center;
     font-size: x-large;
@@ -263,11 +266,11 @@ a {
     font-size: .8rem;
 }
 
-.tarjeta__img {
+.tarjeta-ventas__img {
     width: 100%;
 }
 
-.tarjeta__cuerpo {
+.tarjeta-ventas__cuerpo {
     font-size: .9rem;
     height: 60%;
     display: flex;
@@ -276,7 +279,7 @@ a {
     align-items: center;
 }
 
-.tarjeta__titulo {
+.tarjeta-ventas__titulo {
     text-align: center;
 }
 
@@ -304,23 +307,31 @@ a {
 
 
 
-    /* ------------------- nabar ------------------- */
+    /* ------------------- navbar ------------------- */
+
+
+    .navbar{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
 
 
     .navbar__list {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: end;
-        gap: 50px;
+        gap: 10px;
+        font-size: 1.4rem;
     }
 
 
 
-    /* -------------------- main ------------------- */
+    /* -------------------- index ------------------- */
 
 
 
-    .index__texto {
+    .index-portada__texto {
         height: 20vh;
         font-size: x-large;
     }
@@ -367,10 +378,10 @@ a {
 
 
 
-    /* --------------- galeria main ---------------- */
+    /* --------------- galeria portada ---------------- */
 
 
-    .galimag {
+    .portada-galeria__img {
         height: 65vh;
         object-fit: cover;
     }
@@ -379,7 +390,7 @@ a {
     /* ------------- ventas main ------------- */
 
 
-    .productos-en-venta {
+    .portada-ventas {
         height: 60vh;
     }
 
@@ -403,18 +414,18 @@ a {
 
 
 
-    .tarjeta {
+    .tarjeta-servicios {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
         padding: 35px;
         height: 600px;
         width: 99vw;
-        gap: 25px;
+        gap: 15px;
     }
 
-    .tarjeta__texto {
-        font-size: .8rem;
+    .tarjeta-servicios__cuerpo {
+        font-size: .7rem;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -446,16 +457,16 @@ a {
 
 
 
-    .index__portada {
+    .index-portada {
         height: 62vh;
     }
 
-    .index__texto {
+    .index-portada__texto {
         font-size: x-large;
         padding-bottom: 8;
     }
 
-    .index__titulo {
+    .index-portada__titulo {
         font-size: xx-large;
         font-weight: 700;
     }
@@ -500,7 +511,7 @@ a {
 
 
 
-    .tarjeta {
+    .tarjeta-servicios {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
@@ -511,7 +522,7 @@ a {
         gap: 50px;
     }
 
-    .tarjeta__texto {
+    .tarjeta-servicios__cuerpo {
         font-size: 1rem;
         width: 47vw;
         height: 28vh;
@@ -528,7 +539,7 @@ a {
 
 
 
-    .productos-en-venta {
+    .portada-ventas {
         height: 62vh;
         background-color: black;
         color: white;
@@ -556,7 +567,7 @@ a {
         font-size: .8rem;
     }
 
-    .tarjeta__cuerpo {
+    .tarjeta-ventas__cuerpo {
         height: 25%;
         display: flex;
         flex-direction: column;
@@ -564,7 +575,7 @@ a {
         align-items: center;
     }
 
-    .tarjeta__img {
+    .tarjeta-ventas__img {
         width: 100%;
         height: 30vh;
         object-fit: cover;
