@@ -1,4 +1,4 @@
-portada-servicios {
+.portada-servicios {
     height: 72vh;
     background-image: url(../img/Kawa-best.jpeg);
     background-position: center;
@@ -18,7 +18,7 @@ portada-servicios {
 
 
 
-tarjeta-servicios {
+.tarjeta-servicios {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -51,29 +51,22 @@ tarjeta-servicios {
 @media (min-width: 768px) {
 
 
-    tarjeta-servicios {
+    .tarjeta-servicios {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
-        padding: 35px;
-        height: 600px;
-        width: 99vw;
+        padding-bottom: 50px;
+        padding-left: 25px;
         gap: 15px;
 
         &__cuerpo {
-            font-size: .7rem;
+            font-size: 0.8rem;
             display: flex;
             flex-direction: column;
             justify-content: space-around;
             align-items: center;
-            height: 25vh;
+            height: 27vh;
         }
-    }
-
-
-
-    tarjeta__btn {
-        width: 150px;
     }
 }
 
@@ -81,26 +74,17 @@ tarjeta-servicios {
 @media (min-width: 1024px) {
 
 
-    tarjeta-servicios {
+    .tarjeta-servicios {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
         padding-left: 7px;
         padding-bottom: 20px;
-        height: 99vh;
-        width: 85vw;
-        gap: 50px;
 
         &__cuerpo {
-            font-size: 1rem;
+            font-size: .9rem;
             width: 47vw;
-            height: 28vh;
+            height: 20vh;
         }
-    }
-
-
-
-    .btn {
-        font-size: 1rem;
     }
 }

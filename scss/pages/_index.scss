@@ -1,4 +1,4 @@
-index-portada {
+.index-portada {
     height: 70vh;
     background-image: url(../img/Kawa-best.jpeg);
     background-position: center;
@@ -35,7 +35,7 @@ index-portada {
 
 
 
-    index-portada {
+    .index-portada {
         height: 62vh;
 
         &__texto {
@@ -56,7 +56,7 @@ index-portada {
 
 
 
-    index-portada {
+    .index-portada {
         height: 62vh;
 
         &__texto {
@@ -69,8 +69,4 @@ index-portada {
             }
         }
     }
-
-
-
-
 }

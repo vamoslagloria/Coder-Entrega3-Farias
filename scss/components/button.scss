@@ -1,10 +1,10 @@
-btn {
+.btn {
     background-color: rgb(75, 196, 196);
     padding: 12px 25px;
     border-radius: 6px;
     font-size: .8rem;
 
-    &__:hover {
+    &:hover {
         background-color: red;
     }
 }

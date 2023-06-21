@@ -15,13 +15,13 @@ a {
   color: black;
 }
 
-btn {
+.btn {
   background-color: rgb(75, 196, 196);
   padding: 12px 25px;
   border-radius: 6px;
   font-size: 0.8rem;
 }
-btn__:hover {
+.btn:hover {
   background-color: red;
 }
 
@@ -45,7 +45,7 @@ redes {
 redes titulo {
   font-size: 1.3rem;
 }
-redes lista {
+redes titulo lista {
   display: flex;
   flex-direction: column;
   gap: 6px;
@@ -104,7 +104,7 @@ map {
     padding-right: 30px;
   }
 }
-form {
+.portada-contacto__form {
   background-color: rgba(164, 158, 158, 0.845);
   display: flex;
   flex-direction: column;
@@ -130,13 +130,13 @@ navbar__list {
     display: flex;
     flex-direction: column;
   }
-  navbar {
+  .navbar {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
   }
 }
-index-portada {
+.index-portada {
   height: 70vh;
   background-image: url(../img/Kawa-best.jpeg);
   background-position: center;
@@ -145,7 +145,7 @@ index-portada {
   justify-content: center;
   align-items: end;
 }
-index-portada__texto {
+.index-portada__texto {
   background-color: rgba(239, 235, 235, 0.811);
   display: flex;
   flex-direction: column;
@@ -162,32 +162,32 @@ index-portada__texto {
   }
 }
 @media (min-width: 1024px) {
-  index-portada {
+  .index-portada {
     height: 62vh;
   }
-  index-portada__texto {
+  .index-portada__texto {
     font-size: x-large;
     padding-bottom: 8;
   }
-  index-portada__texto__titulo {
+  .index-portada__texto__titulo {
     font-size: xx-large;
     font-weight: 700;
   }
 }
 @media (min-width: 1024px) {
-  index-portada {
+  .index-portada {
     height: 62vh;
   }
-  index-portada__texto {
+  .index-portada__texto {
     font-size: x-large;
     padding-bottom: 8;
   }
-  index-portada__texto__titulo {
+  .index-portada__texto__titulo {
     font-size: xx-large;
     font-weight: 700;
   }
 }
-portada-contacto {
+.portada-contacto {
   height: 75vh;
   display: flex;
   justify-content: stretch;
@@ -197,7 +197,7 @@ portada-contacto {
   background-position: center;
 }
 
-portada-galeria {
+.portada-galeria {
   background-color: rgb(71, 67, 67);
   height: 66vh;
   display: flex;
@@ -205,19 +205,24 @@ portada-galeria {
   justify-content: space-around;
   align-items: center;
 }
-
-img {
+.portada-galeria__img {
   height: 50vh;
   object-fit: cover;
 }
 
 @media (min-width: 768px) {
-  portada-galeria__img {
-    height: 95vh;
-    object-fit: cover;
+  .portada-galeria__carousel {
+    height: 50vh;
+    width: 90vw;
   }
 }
-portada-servicios {
+@media (min-width: 1024px) {
+  .portada-galeria__carousel {
+    height: 60vh;
+    width: 90vw;
+  }
+}
+.portada-servicios {
   height: 72vh;
   background-image: url(../img/Kawa-best.jpeg);
   background-position: center;
@@ -226,7 +231,7 @@ portada-servicios {
   flex-direction: column;
   justify-content: space-between;
 }
-portada-servicios__titulo {
+.portada-servicios__titulo {
   background-color: rgba(246, 242, 242, 0.951);
   padding: 4px;
   text-align: center;
@@ -234,7 +239,7 @@ portada-servicios__titulo {
   font-size: 1.3rem;
 }
 
-tarjeta-servicios {
+.tarjeta-servicios {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
@@ -243,7 +248,7 @@ tarjeta-servicios {
   width: 95vw;
   gap: 9px;
 }
-tarjeta-servicios__cuerpo {
+.tarjeta-servicios__cuerpo {
   background-color: rgba(247, 242, 242, 0.892);
   border: 4px solid wheat;
   text-align: center;
@@ -256,53 +261,43 @@ tarjeta-servicios__cuerpo {
   height: 30vh;
   width: 45vw;
 }
-tarjeta-servicios__cuerpo__titulo {
+.tarjeta-servicios__cuerpo__titulo {
   font-size: 1.3rem;
 }
 
 @media (min-width: 768px) {
-  tarjeta-servicios {
+  .tarjeta-servicios {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    padding: 35px;
-    height: 600px;
-    width: 99vw;
+    padding-bottom: 50px;
+    padding-left: 25px;
     gap: 15px;
   }
-  tarjeta-servicios__cuerpo {
-    font-size: 0.7rem;
+  .tarjeta-servicios__cuerpo {
+    font-size: 0.8rem;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height: 25vh;
-  }
-  tarjeta__btn {
-    width: 150px;
+    height: 27vh;
   }
 }
 @media (min-width: 1024px) {
-  tarjeta-servicios {
+  .tarjeta-servicios {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     padding-left: 7px;
     padding-bottom: 20px;
-    height: 99vh;
-    width: 85vw;
-    gap: 50px;
   }
-  tarjeta-servicios__cuerpo {
-    font-size: 1rem;
+  .tarjeta-servicios__cuerpo {
+    font-size: 0.9rem;
     width: 47vw;
-    height: 28vh;
-  }
-  .btn {
-    font-size: 1rem;
+    height: 20vh;
   }
 }
-portada-ventas {
+.portada-ventas {
   height: 68vh;
   background-color: black;
   color: white;
@@ -310,14 +305,14 @@ portada-ventas {
   flex-direction: column;
   justify-content: space-evenly;
 }
-portada-ventas__titulo {
+.portada-ventas__titulo {
   height: 37px;
   text-align: center;
   font-size: x-large;
   font-weight: 400;
 }
 
-div-tarjeta {
+.div-tarjeta {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -325,17 +320,17 @@ div-tarjeta {
   width: 99vw;
 }
 
-tarjeta-ventas {
+.tarjeta-ventas {
   background-color: rgba(249, 245, 245, 0.682);
   border: 4px solid wheat;
   height: 35vh;
   width: 99vw;
   font-size: 0.8rem;
 }
-tarjeta-ventas__img {
+.tarjeta-ventas__img {
   width: 100%;
 }
-tarjeta-ventas__img__cuerpo {
+.tarjeta-ventas__img__cuerpo {
   font-size: 0.9rem;
   height: 60%;
   display: flex;
@@ -343,18 +338,18 @@ tarjeta-ventas__img__cuerpo {
   justify-content: space-around;
   align-items: center;
 }
-tarjeta-ventas__img__cuerpo__titulo {
+.tarjeta-ventas__img__cuerpo__titulo {
   text-align: center;
 }
 
 @media (min-width: 768px) {
-  portada-ventas {
+  .portada-ventas {
     height: 60vh;
   }
-  div-tarjeta {
+  .div-tarjeta {
     width: 99vw;
   }
-  tarjeta-ventas {
+  .tarjeta-ventas {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
