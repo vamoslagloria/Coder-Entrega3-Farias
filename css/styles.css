@@ -218,7 +218,7 @@ a {
     padding-bottom: 8;
   }
 
-  .index-portada__texto__titulo {
+  .index-portada__titulo {
     font-size: xx-large;
     font-weight: 700;
   }
@@ -348,7 +348,7 @@ a {
   width: 45vw;
 }
 
-.tarjeta-servicios__cuerpo__titulo {
+.tarjeta-servicios__titulo {
   font-size: 1.3rem;
 }
 
