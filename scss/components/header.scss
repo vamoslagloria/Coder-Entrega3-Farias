@@ -1,9 +1,9 @@
-header {
+.header {
     background-color: rgb(167, 196, 89);
 
 }
 
-navbar__list {
+.navbar__list {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -16,7 +16,7 @@ navbar__list {
 
 
 
-    header {
+    .header {
         display: flex;
         flex-direction: column;
     }

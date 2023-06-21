@@ -25,7 +25,7 @@ a {
   background-color: red;
 }
 
-footer {
+.footer {
   border-top: 2px solid wheat;
   height: 27vh;
   background-color: rgb(167, 196, 89);
@@ -36,13 +36,13 @@ footer {
   justify-content: space-between;
 }
 
-redes {
+.redes {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: start;
 }
-redes titulo {
+.redes titulo {
   font-size: 1.3rem;
 }
 redes titulo lista {
@@ -53,12 +53,12 @@ redes titulo lista {
   border-radius: 4px;
   padding: 4px;
 }
-redes titulo lista icono {
+.redes titulo lista icono {
   font-size: 1.2rem;
   color: mediumvioletred;
 }
 
-map {
+.map {
   display: none;
 }
 
@@ -70,32 +70,38 @@ map {
     justify-content: space-between;
     padding: 3vh;
   }
-  redes {
+  .redes {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 20px;
   }
-  redes__titulo {
+  .redes__titulo {
     font-size: 1.6rem;
   }
-  redes__titulo__lista {
+  .redes__lista {
     border: 4px solid black;
     border-radius: 4px;
     padding: 4px;
   }
-  map {
+  .map {
     display: inline;
     border: 4px solid black;
     border-radius: 4px;
   }
 }
+
+
+
 @media (min-width: 768px) and (min-width: 1024px) {
-  footer {
+
+
+
+  .footer {
     height: 280px;
     font-size: large;
   }
-  redes__lista {
+  .redes__lista {
     font-weight: 400;
     display: flex;
     flex-direction: column;
@@ -114,19 +120,22 @@ map {
   gap: 20px;
 }
 
-header {
+.header {
   background-color: rgb(167, 196, 89);
 }
 
-navbar__list {
+.navbar__list {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   font-size: 1rem;
 }
 
+
 @media (min-width: 768px) {
-  header {
+  
+  
+  .header {
     display: flex;
     flex-direction: column;
   }
@@ -161,7 +170,11 @@ navbar__list {
     font-size: x-large;
   }
 }
+
+
 @media (min-width: 1024px) {
+  
+  
   .index-portada {
     height: 62vh;
   }
@@ -211,12 +224,18 @@ navbar__list {
 }
 
 @media (min-width: 768px) {
+  
+  
   .portada-galeria__carousel {
     height: 50vh;
     width: 90vw;
   }
 }
+
+
 @media (min-width: 1024px) {
+  
+  
   .portada-galeria__carousel {
     height: 60vh;
     width: 90vw;
@@ -343,6 +362,8 @@ navbar__list {
 }
 
 @media (min-width: 768px) {
+  
+  
   .portada-ventas {
     height: 60vh;
   }
@@ -360,7 +381,11 @@ navbar__list {
     height: 42vh;
   }
 }
+
+
 @media (min-width: 1024px) {
+  
+  
   .portada-ventas {
     height: 62vh;
     background-color: black;

@@ -1,4 +1,4 @@
-footer {
+.footer {
     border-top: 2px solid wheat;
     height: 27vh;
     background-color: rgb(167, 196, 89);
@@ -10,18 +10,18 @@ footer {
 }
 
 
-redes {
+.redes {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: start;
 
 
-    titulo {
+    .titulo {
         font-size: 1.3rem;
 
 
-        lista {
+        .lista {
             display: flex;
             flex-direction: column;
             gap: 6px;
@@ -29,7 +29,7 @@ redes {
             border-radius: 4px;
             padding: 4px;
 
-            icono {
+            .icono {
                 font-size: 1.2rem;
                 color: mediumvioletred;
             }
@@ -82,22 +82,22 @@ map {
 
 
 
-@media (min-width: 1024px) {
+    @media (min-width: 1024px) {
 
 
 
-    footer {
-        height: 280px;
-        font-size: large;
+        footer {
+            height: 280px;
+            font-size: large;
+        }
+
+        redes__lista {
+            font-weight: 400;
+            display: flex;
+            flex-direction: column;
+            justify-content: space- space-between;
+            padding-left: 30px;
+            padding-right: 30px;
+        }
     }
-
-    redes__lista {
-        font-weight: 400;
-        display: flex;
-        flex-direction: column;
-        justify-content: space- space-between;
-        padding-left: 30px;
-        padding-right: 30px;
-    }
-}
 }
