@@ -15,6 +15,10 @@ a {
   color: black;
 }
 
+
+/* ---------------------- button ---------------------- */
+
+
 .btn {
   background-color: rgb(75, 196, 196);
   padding: 12px 25px;
@@ -25,6 +29,10 @@ a {
 .btn:hover {
   background-color: red;
 }
+
+
+/* ---------------------- footer ----------------------- */
+
 
 .footer {
   border-top: 2px solid wheat;
@@ -100,9 +108,7 @@ a {
 }
 
 
-
 @media (min-width: 768px) and (min-width: 1024px) {
-
 
 
   .footer {
@@ -120,6 +126,11 @@ a {
   }
 }
 
+
+/* ---------------------- forms ---------------------- */
+
+
+
 .portada-contacto__form {
   background-color: rgba(164, 158, 158, 0.845);
   display: flex;
@@ -129,6 +140,10 @@ a {
   padding: 20px;
   gap: 20px;
 }
+
+
+/* -------------------- header -------------------- */
+
 
 .header {
   background-color: rgb(167, 196, 89);
@@ -156,6 +171,10 @@ a {
     justify-content: space-between;
   }
 }
+
+
+/* --------------------- index ---------------------- */
+
 
 .index-portada {
   height: 70vh;
@@ -215,14 +234,18 @@ a {
     padding-bottom: 8;
   }
 
-  .index-portada__texto__titulo {
+  .index-portada__titulo {
     font-size: xx-large;
     font-weight: 700;
   }
 }
 
+
+/* -------------------- contacto ----------------- */
+
+
 .portada-contacto {
-  height: 75vh;
+  height: 70vh;
   display: flex;
   justify-content: stretch;
   align-items: stretch;
@@ -231,9 +254,24 @@ a {
   background-position: center;
 }
 
+.portada-contacto__form {
+  background-color: rgba(164, 158, 158, 0.845);
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: end;
+  width: 100vw;
+  padding: 20px;
+  gap: 20px;
+}
+
+
+/* --------------------- galeria -------------------- */
+
+
 .portada-galeria {
   background-color: rgb(71, 67, 67);
-  height: 66vh;
+  height: 75vh;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -263,6 +301,10 @@ a {
     width: 90vw;
   }
 }
+
+
+/* ----------------- servicios ------------------ */
+
 
 .portada-servicios {
   height: 72vh;
@@ -345,6 +387,10 @@ a {
     height: 20vh;
   }
 }
+
+
+/* -------------------- ventas -------------------- */
+
 
 .portada-ventas {
   height: 68vh;
