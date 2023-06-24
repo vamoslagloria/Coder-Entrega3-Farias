@@ -37,7 +37,7 @@
     }
 }
 
-map {
+.map {
     display: none;
 }
 
@@ -46,7 +46,7 @@ map {
 @media (min-width: 768px) {
 
 
-    footer {
+    .footer {
         height: 36vh;
         display: flex;
         flex-direction: column;
@@ -55,7 +55,7 @@ map {
     }
 
 
-    redes {
+    .redes {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -73,7 +73,7 @@ map {
     }
 
 
-    map {
+    .map {
         display: inline;
         border: 4px solid black;
         border-radius: 4px;
@@ -86,12 +86,12 @@ map {
 
 
 
-        footer {
+        .footer {
             height: 280px;
             font-size: large;
         }
 
-        redes__lista {
+        .redes__lista {
             font-weight: 400;
             display: flex;
             flex-direction: column;

@@ -3,12 +3,16 @@
 
 }
 
-.navbar__list {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    font-size: 1rem;
+
+.header__titulo {
+    text-shadow: 7px 7px 15px;
 }
+
+
+
+.nav-item:hover{
+    transform: scale(1.4);
+  }
 
 
 

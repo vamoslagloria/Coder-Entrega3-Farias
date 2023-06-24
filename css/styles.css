@@ -15,10 +15,6 @@ a {
   color: black;
 }
 
-
-/* ---------------------- button ---------------------- */
-
-
 .btn {
   background-color: rgb(75, 196, 196);
   padding: 12px 25px;
@@ -29,10 +25,6 @@ a {
 .btn:hover {
   background-color: red;
 }
-
-
-/* ---------------------- footer ----------------------- */
-
 
 .footer {
   border-top: 2px solid wheat;
@@ -107,10 +99,7 @@ a {
   }
 }
 
-
 @media (min-width: 768px) and (min-width: 1024px) {
-
-
   .footer {
     height: 280px;
     font-size: large;
@@ -126,390 +115,338 @@ a {
   }
 }
 
-
-/* ---------------------- forms ---------------------- */
-
-
-
 .portada-contacto__form {
   background-color: rgba(164, 158, 158, 0.845);
   display: flex;
   flex-direction: column;
   justify-content: end;
   align-items: end;
+  width: 100vw;
   padding: 20px;
   gap: 20px;
 }
-
-
-/* -------------------- header -------------------- */
-
 
 .header {
   background-color: rgb(167, 196, 89);
 }
 
-.navbar__list {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  font-size: 1rem;
+.header__titulo {
+  text-shadow: 7px 7px 15px;
 }
 
 
+
+.nav-item:hover {
+  transform: scale(1.4);
+}
+
 @media (min-width: 768px) {
 
+.navbar-nav{
+  gap: 30px;
+}
 
   .header {
     display: flex;
     flex-direction: column;
   }
 
-  .navbar {
+
+  .index-portada {
+    height: 70vh;
+    background-image: url(../img/Kawa-best.jpeg);
+    background-position: center;
+    background-size: cover;
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    align-items: end;
+  }
+
+  .index-portada__texto {
+    background-color: rgba(239, 235, 235, 0.811);
+    display: flex;
+    flex-direction: column;
+    justify-content: space space-between;
+    width: 100vw;
+    padding: 10px;
+    gap: 10px;
+  }
+
+  @media (min-width: 768px) {
+
+
+    .index-portada__texto {
+      height: 20vh;
+      font-size: x-large;
+    }
+  }
+
+  @media (min-width: 1024px) {
+
+
+    .index-portada {
+      height: 62vh;
+    }
+
+    .index-portada__texto {
+      font-size: x-large;
+      padding-bottom: 8;
+    }
+
+    .index-portada__titulo {
+      font-size: x-large;
+      font-weight: 700;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .index-portada {
+      height: 62vh;
+    }
+
+    .index-portada__texto {
+      font-size: x-large;
+      padding-bottom: 8;
+    }
+
+    .index-portada__titulo {
+      font-size: xx-large;
+      font-weight: 700;
+    }
+  }
+
+  .portada-contacto {
+    height: 99vh;
+    display: flex;
+    justify-content: stretch;
+    align-items: stretch;
+    background-image: url("../img/Kawa desert.jpeg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .portada-galeria {
+    background-color: rgb(71, 67, 67);
+    height: 66vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .portada-galeria__img {
+    height: 50vh;
+    object-fit: cover;
+  }
+
+  @media (min-width: 768px) {
+    .portada-galeria__carousel {
+      height: 50vh;
+      width: 90vw;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .portada-galeria__carousel {
+      height: 60vh;
+      width: 80vw;
+    }
+  }
+
+  .portada-servicios {
+    height: 72vh;
+    background-image: url(../img/Kawa-best.jpeg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
     justify-content: space-between;
   }
-}
 
-
-
-/* --------------------- index ---------------------- */
-
-
-.index-portada {
-  height: 70vh;
-  background-image: url(../img/Kawa-best.jpeg);
-  background-position: center;
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: end;
-}
-
-.index-portada__texto {
-  background-color: rgba(239, 235, 235, 0.811);
-  display: flex;
-  flex-direction: column;
-  justify-content: space space-between;
-  width: 100vw;
-  padding: 10px;
-  gap: 10px;
-}
-
-@media (min-width: 768px) {
-
-
-  .index-portada__texto {
-    height: 20vh;
-    font-size: x-large;
-  }
-}
-
-
-@media (min-width: 1024px) {
-
-
-  .index-portada {
-    height: 62vh;
+  .portada-servicios__titulo {
+    background-color: rgba(246, 242, 242, 0.951);
+    padding: 4px;
+    text-align: center;
+    border: solid 4px wheat;
+    font-size: 1.3rem;
   }
 
-  .index-portada__texto {
-    font-size: x-large;
-    padding-bottom: 8;
-  }
-
-  .index-portada__titulo {
-    font-size: xx-large;
-    font-weight: 700;
-  }
-}
-
-@media (min-width: 1024px) {
-  .index-portada {
-    height: 62vh;
-  }
-
-  .index-portada__texto {
-    font-size: x-large;
-    padding-bottom: 8;
-  }
-
-  .index-portada__titulo {
-    font-size: xx-large;
-    font-weight: 700;
-  }
-}
-
-
-/* -------------------- contacto ----------------- */
-
-
-.portada-contacto {
-  height: 70vh;
-  display: flex;
-  justify-content: stretch;
-  align-items: stretch;
-  background-image: url("../img/Kawa desert.jpeg");
-  background-size: cover;
-  background-position: center;
-}
-
-.portada-contacto__form {
-  background-color: rgba(164, 158, 158, 0.845);
-  display: flex;
-  flex-direction: column;
-  justify-content: end;
-  align-items: end;
-  width: 100vw;
-  padding: 20px;
-  gap: 20px;
-}
-
-
-/* --------------------- galeria -------------------- */
-
-
-.portada-galeria {
-  background-color: rgb(71, 67, 67);
-  height: 75vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.portada-galeria__img {
-  height: 50vh;
-  object-fit: cover;
-}
-
-@media (min-width: 768px) {
-
-
-  .portada-galeria__carousel {
-    height: 50vh;
-    width: 90vw;
-  }
-}
-
-
-@media (min-width: 1024px) {
-
-
-  .portada-galeria__carousel {
-    height: 60vh;
-    width: 80vw;
-  }
-}
-
-
-/* ----------------- servicios ------------------ */
-
-
-.portada-servicios {
-  height: 72vh;
-  background-image: url(../img/Kawa-best.jpeg);
-  background-position: center;
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.portada-servicios__titulo {
-  background-color: rgba(246, 242, 242, 0.951);
-  padding: 4px;
-  text-align: center;
-  border: solid 4px wheat;
-  font-size: 1.3rem;
-}
-
-.tarjeta-servicios {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  padding: 15px;
-  height: 99vh;
-  width: 95vw;
-  gap: 9px;
-}
-
-.tarjeta-servicios__cuerpo {
-  background-color: rgba(247, 242, 242, 0.892);
-  border: 4px solid wheat;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  padding: 10px;
-  box-shadow: 12px 12px 5px;
-  font-size: 0.6rem;
-  height: 30vh;
-  width: 45vw;
-}
-
-.tarjeta-servicios__titulo {
-  font-size: 1.3rem;
-}
-
-@media (min-width: 768px) {
   .tarjeta-servicios {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    padding-bottom: 50px;
-    padding-left: 25px;
-    gap: 15px;
+    padding: 15px;
+    height: 99vh;
+    width: 95vw;
+    gap: 9px;
   }
 
   .tarjeta-servicios__cuerpo {
-    font-size: 0.8rem;
+    background-color: rgba(247, 242, 242, 0.892);
+    border: 4px solid wheat;
+    text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: center;
-    height: 27vh;
-  }
-}
-
-@media (min-width: 1024px) {
-  .tarjeta-servicios {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    padding-left: 7px;
-    padding-bottom: 20px;
-  }
-
-  .tarjeta-servicios__cuerpo {
-    font-size: 0.9rem;
-    width: 47vw;
-    height: 20vh;
-  }
-}
-
-
-/* -------------------- ventas -------------------- */
-
-
-.portada-ventas {
-  height: 68vh;
-  background-color: black;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-}
-
-.portada-ventas__titulo {
-  height: 37px;
-  text-align: center;
-  font-size: x-large;
-  font-weight: 400;
-}
-
-.div-tarjeta {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  gap: 10px;
-  width: 99vw;
-}
-
-.tarjeta-ventas {
-  background-color: rgba(249, 245, 245, 0.682);
-  border: 4px solid wheat;
-  height: 35vh;
-  width: 99vw;
-  font-size: 0.8rem;
-}
-
-.tarjeta-ventas__img {
-  width: 100%;
-}
-
-.tarjeta-ventas__cuerpo {
-  font-size: 0.9rem;
-  height: 60%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.tarjeta-ventas__titulo {
-  text-align: center;
-}
-
-@media (min-width: 768px) {
-
-
-  .portada-ventas {
-    height: 60vh;
-  }
-
-  .div-tarjeta {
-    width: 99vw;
-  }
-
-  .tarjeta-ventas {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
     padding: 10px;
-    gap: 20px;
-    width: 99vw;
-    height: 42vh;
+    box-shadow: 12px 12px 5px;
+    font-size: 0.6rem;
+    height: 30vh;
+    width: 45vw;
   }
-}
 
+  .tarjeta-servicios__titulo {
+    font-size: 1.3rem;
+  }
 
-@media (min-width: 1024px) {
+  @media (min-width: 768px) {
+    .tarjeta-servicios {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      padding-bottom: 50px;
+      padding-left: 25px;
+      gap: 15px;
+    }
 
+    .tarjeta-servicios__cuerpo {
+      font-size: 0.8rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      height: 27vh;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .tarjeta-servicios {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      padding-left: 7px;
+      padding-bottom: 20px;
+    }
+
+    .tarjeta-servicios__cuerpo {
+      font-size: 0.9rem;
+      width: 47vw;
+      height: 20vh;
+    }
+  }
 
   .portada-ventas {
-    height: 62vh;
+    height: 68vh;
     background-color: black;
     color: white;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    gap: 20px;
+    justify-content: space-evenly;
+  }
+
+  .portada-ventas__titulo {
+    height: 37px;
+    text-align: center;
+    font-size: x-large;
+    font-weight: 400;
   }
 
   .div-tarjeta {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center;
-    padding: 10px;
-    gap: 40px;
+    gap: 10px;
     width: 99vw;
   }
 
   .tarjeta-ventas {
     background-color: rgba(249, 245, 245, 0.682);
     border: 4px solid wheat;
-    height: 50vh;
+    height: 35vh;
     width: 99vw;
     font-size: 0.8rem;
   }
 
+  .tarjeta-ventas__img {
+    width: 100%;
+  }
+
   .tarjeta-ventas__cuerpo {
-    height: 25%;
+    font-size: 0.9rem;
+    height: 60%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
   }
 
-  .tarjeta-ventas__img {
-    width: 100%;
-    height: 30vh;
-    object-fit: cover;
+  .tarjeta-ventas__titulo {
+    text-align: center;
   }
-}
 
-/*# sourceMappingURL=styles.css.map */
+  @media (min-width: 768px) {
+    .portada-ventas {
+      height: 60vh;
+    }
+
+    .div-tarjeta {
+      width: 99vw;
+    }
+
+    .tarjeta-ventas {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      padding: 10px;
+      gap: 20px;
+      width: 99vw;
+      height: 42vh;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .portada-ventas {
+      height: 62vh;
+      background-color: black;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      gap: 20px;
+    }
+
+    .div-tarjeta {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      padding: 10px;
+      gap: 40px;
+      width: 99vw;
+    }
+
+    .tarjeta-ventas {
+      background-color: rgba(249, 245, 245, 0.682);
+      border: 4px solid wheat;
+      height: 50vh;
+      width: 99vw;
+      font-size: 0.8rem;
+    }
+
+    .tarjeta-ventas__cuerpo {
+      height: 25%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .tarjeta-ventas__img {
+      width: 100%;
+      height: 30vh;
+      object-fit: cover;
+    }
+  }
+
+  /*# sourceMappingURL=styles.css.map */
