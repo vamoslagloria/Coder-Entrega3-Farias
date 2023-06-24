@@ -27,7 +27,7 @@ a {
 
 .footer {
   border-top: 2px solid wheat;
-  height: 27vh;
+  height: 40vh;
   background-color: rgb(167, 196, 89);
   padding: 16px;
   color: black;
@@ -173,7 +173,7 @@ a {
     font-size: x-large;
     padding-bottom: 8;
   }
-  .index-portada_titulo {
+  .index-portada__titulo {
     font-size: x-large;
     font-weight: 700;
   }
