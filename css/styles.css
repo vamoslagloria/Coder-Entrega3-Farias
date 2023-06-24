@@ -123,9 +123,10 @@ a {
   text-shadow: 7px 7px 15px;
 }
 
-.nav-item{
+.nav-item {
   text-shadow: 7px 7px 15px;
 }
+
 .nav-item:hover {
   transform: scale(1.4);
 }
@@ -172,7 +173,7 @@ a {
     font-size: x-large;
     padding-bottom: 8;
   }
-  .index-portada__titulo {
+  .index-portada_titulo {
     font-size: x-large;
     font-weight: 700;
   }
