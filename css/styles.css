@@ -157,7 +157,7 @@ a {
 
 @media (min-width: 768px) {
   .index-portada__texto {
-    height: 30vh;
+    height: 20vh;
     font-size: x-large;
   }
 }
@@ -318,7 +318,7 @@ a {
   .tarjeta-servicios__cuerpo {
     font-size: 0.9rem;
     width: 47vw;
-    height: 20vh;
+    height: 30vh;
   }
 }
 .portada-ventas {
