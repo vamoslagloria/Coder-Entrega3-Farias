@@ -173,6 +173,7 @@ a {
 }
 
 
+
 /* --------------------- index ---------------------- */
 
 
@@ -298,7 +299,7 @@ a {
 
   .portada-galeria__carousel {
     height: 60vh;
-    width: 90vw;
+    width: 80vw;
   }
 }
 
