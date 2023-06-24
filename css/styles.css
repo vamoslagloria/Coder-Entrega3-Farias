@@ -140,6 +140,29 @@ a {
   transform: scale(1.4);
 }
 
+
+.index-portada {
+  height: 70vh;
+  background-image: url(../img/Kawa-best.jpeg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.index-portada__texto {
+  background-color: rgba(239, 235, 235, 0.811);
+  display: flex;
+  flex-direction: column;
+  justify-content: space space-between;
+  width: 100vw;
+  padding: 10px;
+  gap: 10px;
+}
+
+
+
 @media (min-width: 768px) {
 
 .navbar-nav {
@@ -149,27 +172,6 @@ a {
   .header {
     display: flex;
     flex-direction: column;
-  }
-
-
-  .index-portada {
-    height: 70vh;
-    background-image: url(../img/Kawa-best.jpeg);
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: end;
-  }
-
-  .index-portada__texto {
-    background-color: rgba(239, 235, 235, 0.811);
-    display: flex;
-    flex-direction: column;
-    justify-content: space space-between;
-    width: 100vw;
-    padding: 10px;
-    gap: 10px;
   }
 }
 
