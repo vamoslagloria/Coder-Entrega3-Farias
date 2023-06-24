@@ -157,7 +157,7 @@ a {
 
 @media (min-width: 768px) {
   .index-portada__texto {
-    height: 20vh;
+    height: 30vh;
     font-size: x-large;
   }
 }
