@@ -10,9 +10,9 @@
 
 
 
-.nav-item:hover{
+.nav-item:hover {
     transform: scale(1.4);
-  }
+}
 
 
 
@@ -25,10 +25,7 @@
         flex-direction: column;
     }
 
-
-    .navbar {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+    .navbar-nav {
+        gap: 30px;
     }
 }
