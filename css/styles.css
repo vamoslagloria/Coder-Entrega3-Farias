@@ -157,13 +157,13 @@ a {
 
 @media (min-width: 768px) {
   .index-portada__texto {
-    height: 20vh;
+    height: 30vh;
     font-size: x-large;
   }
 }
 @media (min-width: 1024px) {
   .index-portada {
-    height: 62vh;
+    height: 70vh;
   }
   .index-portada__texto {
     font-size: x-large;
