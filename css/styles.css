@@ -120,6 +120,7 @@ a {
 }
 
 .header__titulo {
+  font-size: 1.3rem;
   text-shadow: 7px 7px 15px;
 }
 
@@ -261,10 +262,9 @@ a {
 }
 .portada-servicios__titulo {
   background-color: rgba(246, 242, 242, 0.951);
-  padding: 4px;
   text-align: center;
   border: solid 4px wheat;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
 }
 
 .tarjeta-servicios {
@@ -283,14 +283,13 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  padding: 10px;
   box-shadow: 12px 12px 5px;
-  font-size: 0.6rem;
+  font-size: 0.5rem;
   height: 30vh;
   width: 45vw;
 }
 .tarjeta-servicios__titulo {
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 
 @media (min-width: 768px) {
