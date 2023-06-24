@@ -9,6 +9,7 @@
 }
 
 .nav-item {
+    font-size: .8rem;
     text-shadow: 7px 7px 15px;
 }
 
@@ -25,6 +26,10 @@
     .header {
         display: flex;
         flex-direction: column;
+    }
+
+    .nav-item {
+        font-size: 1rem;
     }
 
     .navbar-nav {
