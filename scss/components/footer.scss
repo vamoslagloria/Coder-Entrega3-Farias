@@ -1,6 +1,6 @@
 .footer {
     border-top: 2px solid wheat;
-    height: 40vh;
+    height: 30vh;
     background-color: rgb(167, 196, 89);
     padding: 16px;
     color: black;
@@ -18,10 +18,11 @@
 
 
     .titulo {
-        font-size: 1.3rem;
+        font-size: 1rem;
 
 
         .lista {
+            font-size: 1rem;
             display: flex;
             flex-direction: column;
             gap: 6px;
@@ -30,7 +31,7 @@
             padding: 4px;
 
             .icono {
-                font-size: 1.2rem;
+                font-size: 1.1rem;
                 color: mediumvioletred;
             }
         }

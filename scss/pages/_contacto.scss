@@ -1,30 +1,30 @@
 .portada-contacto {
-    height: 75vh;
-    display: flex;
-    justify-content: stretch;
-    align-items: stretch;
-    background-image: url("../img/Kawa desert.jpeg");
-    background-size: cover;
-    background-position: center;
+  height: 75vh;
+  display: flex;
+  justify-content: stretch;
+  align-items: stretch;
+  background-image: url("../img/Kawa desert.jpeg");
+  background-size: cover;
+  background-position: center;
 }
 
 
 @media (min-width: 768px) {
 
-    .portada-contacto__form {
-  background-color: rgba(164, 158, 158, 0.845);
-  display: flex;
-  flex-direction: column;
-  justify-content: end;
-  align-items: end;
-  width: 50vw;
-  padding: 20px;
-  gap: 20px;
-}
+  .portada-contacto__form {
+    background-color: rgba(164, 158, 158, 0.845);
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    width: 50vw;
+    padding: 20px;
+    gap: 20px;
+  }
 }
 
 
-@media (min-width: 1024px){
+@media (min-width: 1024px) {
 
   .portada-contacto__form {
     background-color: rgba(164, 158, 158, 0.845);
@@ -36,4 +36,4 @@
     padding: 20px;
     gap: 20px;
   }
-  }
+}
