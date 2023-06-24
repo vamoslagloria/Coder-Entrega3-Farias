@@ -123,6 +123,9 @@ a {
   text-shadow: 7px 7px 15px;
 }
 
+.nav-item{
+  text-shadow: 7px 7px 15px;
+}
 .nav-item:hover {
   transform: scale(1.4);
 }
