@@ -27,7 +27,7 @@ a {
 
 .footer {
   border-top: 2px solid wheat;
-  height: 40vh;
+  height: 35vh;
   background-color: rgb(167, 196, 89);
   padding: 16px;
   color: black;
@@ -202,6 +202,7 @@ a {
   background-position: center;
 }
 
+
 @media (min-width: 768px) {
   .portada-contacto__form {
     background-color: rgba(164, 158, 158, 0.845);
@@ -367,6 +368,7 @@ a {
 }
 .tarjeta-ventas__titulo {
   text-align: center;
+  font-size: 1rem;
 }
 
 @media (min-width: 768px) {
