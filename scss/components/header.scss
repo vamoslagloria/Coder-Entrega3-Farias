@@ -1,12 +1,8 @@
 .header {
     background-color: rgb(167, 196, 89);
-
-}
-
-
-.header__titulo {
     text-shadow: 7px 7px 15px;
 }
+
 
 .nav-item {
     font-size: .8rem;
@@ -14,7 +10,7 @@
 }
 
 .nav-item:hover {
-    transform: scale(1.4);
+    transform: scale(1.2);
 }
 
 
@@ -26,6 +22,11 @@
     .header {
         display: flex;
         flex-direction: column;
+
+        &__titulo {
+            font-size: 1.8rem;
+            text-shadow: 7px 7px 15px;
+        }
     }
 
     .nav-item {
@@ -33,6 +34,6 @@
     }
 
     .navbar-nav {
-        gap: 30px;
+        gap: 25px;
     }
 }

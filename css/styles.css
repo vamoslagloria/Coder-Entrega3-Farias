@@ -27,6 +27,7 @@ a {
 }
 
 .footer {
+
   border-top: 2px solid wheat;
   height: 30vh;
   background-color: rgb(167, 196, 89);
@@ -101,6 +102,7 @@ a {
 }
 
 @media (min-width: 768px) and (min-width: 1024px) {
+
   .footer {
     height: 280px;
     font-size: large;
@@ -152,12 +154,18 @@ a {
     flex-direction: column;
   }
 
+  .header__titulo {
+    font-size: 1.8rem;
+    text-shadow: 7px 7px 15px;
+  }
+
+
   .nav-item {
     font-size: 1rem;
   }
 
   .navbar-nav {
-    gap: 30px;
+    gap: 25px;
   }
 }
 
@@ -200,12 +208,12 @@ a {
   }
 
   .index-portada__texto {
-    font-size: x-large;
+    font-size: xx-large;
     padding-bottom: 8;
   }
 
   .index-portada__titulo {
-    font-size: x-large;
+    font-size: xx-large;
     font-weight: 700;
   }
 }
