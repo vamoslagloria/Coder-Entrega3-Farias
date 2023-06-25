@@ -5,6 +5,18 @@
     font-size: .8rem;
 
     &:hover {
-        background-color: red;
+        background-color: rgb(236, 94, 94);
+    }
+}
+
+.tarjeta-servicios__btn {
+    width: 90px;
+    background-color: rgb(101, 203, 203);
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 0.5rem;
+
+    &__btn:hover {
+        background-color: rgb(236, 94, 94);
     }
 }

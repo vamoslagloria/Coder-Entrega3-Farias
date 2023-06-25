@@ -1,13 +1,12 @@
 .portada-galeria {
     background-color: rgb(71, 67, 67);
-    height: 66vh;
+    height: 75vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
 
     &__img {
-        height: 50vh;
         object-fit: cover
     }
 }
@@ -17,8 +16,8 @@
 @media (min-width: 768px) {
 
     .portada-galeria__carousel {
-        height: 50vh;
-        width: 90vw;
+        height: 65vh;
+        width: 99vw;
     }
 }
 

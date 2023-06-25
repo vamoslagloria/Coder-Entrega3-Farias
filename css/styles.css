@@ -23,7 +23,7 @@ a {
 }
 
 .btn:hover {
-  background-color:  rgb(236, 94, 94);
+  background-color: rgb(236, 94, 94);
 }
 
 .tarjeta-servicios__btn {
@@ -81,7 +81,7 @@ a {
 
 @media (min-width: 768px) {
   .footer {
-    height: 36vh;
+    height: 25vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -119,10 +119,10 @@ a {
 
 
 
-@media (min-width: 768px) and (min-width: 1024px) {
+@media (min-width: 1024px) {
 
   .footer {
-    height: 280px;
+    height: 36vh;
     font-size: large;
   }
 
@@ -221,6 +221,7 @@ a {
 
 
 @media (min-width: 1024px) {
+  
   .index-portada {
     height: 62vh;
   }
