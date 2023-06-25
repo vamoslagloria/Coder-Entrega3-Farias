@@ -1,6 +1,11 @@
 .header {
     background-color: rgb(167, 196, 89);
     text-shadow: 7px 7px 15px;
+
+    &__titulo {
+        font-size: 1.3rem;
+        text-shadow: 7px 7px 15px;
+    }
 }
 
 

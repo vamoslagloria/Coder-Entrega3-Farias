@@ -29,7 +29,7 @@ a {
 .footer {
 
   border-top: 2px solid wheat;
-  height: 30vh;
+  height: 18vh;
   background-color: rgb(167, 196, 89);
   padding: 16px;
   color: black;
@@ -40,9 +40,10 @@ a {
 
 .redes {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   align-items: start;
+  gap: 20px;
 }
 
 .redes__titulo {
@@ -52,10 +53,8 @@ a {
 .redes__lista {
   font-size: .8rem;
   display: flex;
-  flex-direction: column;
-  gap: 6px;
-  border: 4px solid black;
-  border-radius: 4px;
+  flex-direction: row;
+  gap: 15px;
   padding: 4px;
 }
 
@@ -92,14 +91,21 @@ a {
     border: 4px solid black;
     border-radius: 4px;
     padding: 4px;
-  }
-
-  .map {
+      font-size: .9rem;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      padding: 4px;
+    }
+    .map {
     display: inline;
     border: 4px solid black;
     border-radius: 4px;
   }
-}
+  }
+
+
+
 
 @media (min-width: 768px) and (min-width: 1024px) {
 
@@ -131,6 +137,7 @@ a {
 
 .header {
   background-color: rgb(167, 196, 89);
+  text-shadow: 7px 7px 15px;
 }
 
 .header__titulo {
@@ -170,7 +177,7 @@ a {
 }
 
 .index-portada {
-  height: 70vh;
+  height: 79vh;
   background-image: url(../img/Kawa-best.jpeg);
   background-position: center;
   background-size: cover;
@@ -183,7 +190,7 @@ a {
   background-color: rgba(239, 235, 235, 0.811);
   display: flex;
   flex-direction: column;
-  justify-content: space space-between;
+  justify-content: space-between;
   width: 100vw;
   padding: 10px;
 }
@@ -195,28 +202,11 @@ a {
 @media (min-width: 768px) {
 
   .index-portada__texto {
-    height: 30vh;
+    height: 24vh;
     font-size: x-large;
   }
 }
 
-
-@media (min-width: 1024px) {
-
-  .index-portada {
-    height: 70vh;
-  }
-
-  .index-portada__texto {
-    font-size: xx-large;
-    padding-bottom: 8;
-  }
-
-  .index-portada__titulo {
-    font-size: xx-large;
-    font-weight: 700;
-  }
-}
 
 @media (min-width: 1024px) {
   .index-portada {
@@ -229,14 +219,15 @@ a {
   }
 
   .index-portada__titulo {
-    font-size: xx-large;
-    font-weight: 700;
+    font-size: 1.7rem;
+    font-weight: 400;
+    ;
   }
 }
 
 
 .portada-contacto {
-  height: 75vh;
+  height: 80vh;
   display: flex;
   justify-content: stretch;
   align-items: stretch;
@@ -247,6 +238,7 @@ a {
 
 
 @media (min-width: 768px) {
+
   .portada-contacto__form {
     background-color: rgba(164, 158, 158, 0.845);
     display: flex;
@@ -260,6 +252,7 @@ a {
 }
 
 @media (min-width: 1024px) {
+  
   .portada-contacto__form {
     background-color: rgba(164, 158, 158, 0.845);
     display: flex;

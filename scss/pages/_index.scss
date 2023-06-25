@@ -1,5 +1,5 @@
 .index-portada {
-    height: 70vh;
+    height: 79vh;
     background-image: url(../img/Kawa-best.jpeg);
     background-position: center;
     background-size: cover;
@@ -28,34 +28,13 @@
 
 
     .index-portada__texto {
-        height: 30vh;
+        height: 24vh;
         font-size: x-large;
     }
 }
 
 
 @media (min-width: 1024px) {
-
-
-    .index-portada {
-        height: 70vh;
-
-        &__texto {
-            font-size: x-large;
-            padding-bottom: 8;
-
-            &__titulo {
-                font-size: x-large;
-                font-weight: 700;
-            }
-        }
-    }
-}
-
-
-
-@media (min-width: 1024px) {
-
 
 
     .index-portada {
@@ -66,8 +45,8 @@
             padding-bottom: 8;
 
             &__titulo {
-                font-size: xx-large;
-                font-weight: 700;
+                font-size: 1.7rem;
+                font-weight: 400;
             }
         }
     }
