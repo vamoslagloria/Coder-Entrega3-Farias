@@ -16,14 +16,26 @@ a {
 }
 
 .btn {
-  background-color: rgb(75, 196, 196);
+  background-color: rgb(101, 203, 203);
   padding: 12px 25px;
   border-radius: 6px;
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 
 .btn:hover {
-  background-color: red;
+  background-color:  rgb(236, 94, 94);
+}
+
+.tarjeta-servicios__btn {
+  width: 90px;
+  background-color: rgb(101, 203, 203);
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 0.7rem;
+}
+
+.tarjeta-servicios__btn:hover {
+  background-color: rgb(236, 94, 94);
 }
 
 .footer {
@@ -177,7 +189,7 @@ a {
 }
 
 .index-portada {
-  height: 79vh;
+  height: 75vh;
   background-image: url(../img/Kawa-best.jpeg);
   background-position: center;
   background-size: cover;
@@ -227,7 +239,7 @@ a {
 
 
 .portada-contacto {
-  height: 80vh;
+  height: 75vh;
   display: flex;
   justify-content: stretch;
   align-items: stretch;
@@ -268,7 +280,7 @@ a {
 
 .portada-galeria {
   background-color: rgb(71, 67, 67);
-  height: 78vh;
+  height: 75vh;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -297,7 +309,7 @@ a {
 }
 
 .portada-servicios {
-  height: 78vh;
+  height: 75vh;
   background-image: url(../img/Kawa-best.jpeg);
   background-position: center;
   background-size: cover;
@@ -330,6 +342,7 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  align-items: center;
   box-shadow: 12px 12px 5px;
   font-size: 0.5rem;
   height: 30vh;
@@ -379,7 +392,7 @@ a {
 }
 
 .portada-ventas {
-  height: 78vh;
+  height: 75vh;
   background-color: black;
   color: white;
   display: flex;
