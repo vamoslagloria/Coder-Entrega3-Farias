@@ -268,7 +268,7 @@ a {
 
 .portada-galeria {
   background-color: rgb(71, 67, 67);
-  height: 66vh;
+  height: 78vh;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -297,7 +297,7 @@ a {
 }
 
 .portada-servicios {
-  height: 72vh;
+  height: 78vh;
   background-image: url(../img/Kawa-best.jpeg);
   background-position: center;
   background-size: cover;
@@ -379,7 +379,7 @@ a {
 }
 
 .portada-ventas {
-  height: 68vh;
+  height: 78vh;
   background-color: black;
   color: white;
   display: flex;
