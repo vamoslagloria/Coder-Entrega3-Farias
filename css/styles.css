@@ -43,7 +43,7 @@ a {
   flex-direction: column;
   justify-content: space-between;
   align-items: start;
-  gap: 20px;
+  gap: 10px;
 }
 
 .redes__titulo {
@@ -252,7 +252,7 @@ a {
 }
 
 @media (min-width: 1024px) {
-  
+
   .portada-contacto__form {
     background-color: rgba(164, 158, 158, 0.845);
     display: flex;
