@@ -276,7 +276,6 @@ a {
 }
 
 .portada-galeria__img {
-  height: 50vh;
   object-fit: cover;
 }
 
@@ -284,8 +283,8 @@ a {
 
 @media (min-width: 768px) {
   .portada-galeria__carousel {
-    height: 50vh;
-    width: 90vw;
+    height: 65vh;
+    width: 99vw;
   }
 }
 
