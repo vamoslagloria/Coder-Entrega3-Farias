@@ -47,11 +47,11 @@
 
 
     .footer {
-        height: 25vh;
+        height: 33vh;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        padding: 3vh;
+        padding: 1px;
     }
 
 
@@ -92,7 +92,11 @@
 
 
         .footer {
-            height: 36vh;
+            height: 33vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 1px;
             font-size: large;
         }
 
